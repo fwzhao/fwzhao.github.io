@@ -1,0 +1,5 @@
+title: Fangwen Zhao
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
