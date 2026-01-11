@@ -1,0 +1,224 @@
+---
+layout: none
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fangwen Zhao</title>
+  <style>
+    :root{
+      --text:#222;
+      --muted:#666;
+      --link:#1a73e8;
+      --bg:#fff;
+    }
+    html, body { background: var(--bg); margin:0; padding:0; }
+    body{
+      color: var(--text);
+      font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+    a{ color: var(--link); text-decoration: none; }
+    a:hover{ text-decoration: underline; }
+
+    .page{
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 2.2rem 1.25rem 3rem;
+    }
+
+    .top{
+      display: grid;
+      grid-template-columns: 190px 1fr;
+      gap: 1.5rem;
+      align-items: start;
+      margin-bottom: 1.75rem;
+    }
+
+    /* photo placeholder */
+    .photo{
+      width: 190px;
+      height: 190px;
+      border-radius: 16px;
+      background: #e9eef6;
+      display: grid;
+      place-items: center;
+      color: var(--muted);
+      font-size: .95rem;
+      user-select: none;
+    }
+    .photo small{ display:block; margin-top:.25rem; color: var(--muted); }
+
+    .hgroup h1{
+      margin: 0;
+      font-size: 2.15rem;
+      line-height: 1.15;
+      letter-spacing: .2px;
+    }
+    .subtitle{
+      margin: .25rem 0 .75rem;
+      color: var(--muted);
+      font-size: 1.15rem;
+    }
+    .links{
+      margin-top: .2rem;
+      color: var(--muted);
+    }
+
+    .main{
+      display: grid;
+      grid-template-columns: 1.45fr .85fr;
+      gap: 2.25rem;
+    }
+
+    @media (max-width: 950px){
+      .top{ grid-template-columns: 1fr; }
+      .photo{ width: 160px; height: 160px; }
+      .main{ grid-template-columns: 1fr; gap: 1.6rem; }
+    }
+
+    section{ margin: 0 0 1.7rem; }
+    h2{
+      margin: 1.4rem 0 .6rem;
+      font-size: 1.25rem;
+      letter-spacing: .1px;
+    }
+    h2:first-child{ margin-top: 0; }
+    p{ margin: .65rem 0; }
+
+    .small{ color: var(--muted); font-size: .95rem; }
+
+    .pub{ margin: .9rem 0; }
+    .pub .title{ font-weight: 650; margin-bottom: .15rem; }
+    .pub .meta{ color: var(--muted); font-size: .95rem; }
+
+    .kwd{ font-weight: 650; }
+
+    .side h3{
+      margin: 1.1rem 0 .35rem;
+      font-size: 1.0rem;
+    }
+    .side h3:first-child{ margin-top: 0; }
+    ul{ margin: .35rem 0 .2rem 1.05rem; padding: 0; }
+    li{ margin: .25rem 0; }
+
+    .note{
+      margin-top: 2.2rem;
+      color: var(--muted);
+      font-size: .95rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+
+    <div class="top">
+      <div class="photo">
+        Photo
+        <small>(replace later)</small>
+      </div>
+
+      <div class="hgroup">
+        <h1>Fangwen Zhao</h1>
+        <div class="subtitle">PhD Candidate · Systems immunology · Biomedical data science</div>
+        <div class="links">
+          <a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="content">
+
+        <section>
+          <p>
+            I am a <span class="kwd">data-driven immunologist</span> motivated by biomedical progress through
+            <span class="kwd">creative synthesis</span>. I work on <span class="kwd">systematic disease biology</span>,
+            using multi-omic data to understand shared and distinct mechanisms across immune-relevant disorders.
+          </p>
+
+          <p class="small">
+            Current focus: convergent <span class="kwd">epigenetic dysregulation</span> in
+            <span class="kwd">rare monogenic inborn errors of immunity</span>, with emphasis on B-cell biology.
+          </p>
+        </section>
+
+        <section>
+          <h2>Selected publications</h2>
+
+          <div class="pub">
+            <div class="title">Chromatin mapping uncovers convergent epigenetic dysregulation underlying diverse monogenic inborn errors of immunity</div>
+            <div class="meta">In preparation for resubmission · Zhao F, Imrichova H*, Bal SK*, … Bock C.</div>
+          </div>
+
+          <div class="pub">
+            <div class="title">MrBiomics: Modules &amp; Recipes Augment Bioinformatics for Multi-Omic Analyses</div>
+            <div class="meta">In preparation · Reichl S*, Bednarsky R*, … Zhao F, … Bock C.</div>
+          </div>
+
+          <div class="pub">
+            <div class="title">Multi-omics analysis of naïve B cells of patients harboring the C104R mutation in TACI</div>
+            <div class="meta">Frontiers in Immunology (2022) · Ramirez N, … Zhao F, …</div>
+          </div>
+
+          <div class="pub">
+            <div class="title">Chromatin mapping and single-cell immune profiling define the temporal dynamics of ibrutinib response in CLL</div>
+            <div class="meta">Nature Communications (2020) · Rendeiro AF, … Zhao F, … Bock C.</div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Talks &amp; posters</h2>
+          <p><span class="kwd">Keystone Symposium for Systems Immunology &amp; Immunoengineering</span> (Vancouver, 2026) · Oral talk</p>
+          <p class="small">Additional talks/posters available on request.</p>
+        </section>
+
+        <div class="note">(Education and full career timeline intentionally omitted.)</div>
+      </div>
+
+      <aside class="side">
+        <section>
+          <h2>Skills</h2>
+
+          <h3>Computational</h3>
+          <ul>
+            <li><span class="kwd">Python</span>, <span class="kwd">R</span>, Shell</li>
+            <li>Git, Snakemake, Conda</li>
+            <li>Slurm, Linux</li>
+            <li>LaTeX</li>
+          </ul>
+
+          <h3>Wet lab</h3>
+          <ul>
+            <li>NGS library prep</li>
+            <li>ATAC-seq, BS-seq, Amplicon-seq</li>
+            <li>PCR, DNA/RNA extraction</li>
+            <li>Flow cytometry, cell sorting</li>
+            <li>PBMC isolation, cell culture</li>
+            <li>Gel electrophoresis, Western blot</li>
+          </ul>
+
+          <h3>Software</h3>
+          <ul>
+            <li>FlowJo, Cytoscape, Inkscape</li>
+            <li>Office suite, BioRender</li>
+          </ul>
+
+          <h3>Soft skills</h3>
+          <ul>
+            <li>Project management, troubleshooting</li>
+            <li>Mentorship, collaboration</li>
+            <li>Presentation, visual design</li>
+            <li>Recruitment, grant writing</li>
+            <li>Scientific event organization</li>
+          </ul>
+        </section>
+      </aside>
+
+    </div>
+  </div>
+</body>
+</html>
