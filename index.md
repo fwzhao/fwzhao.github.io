@@ -26,21 +26,21 @@ title: Fangwen Zhao
 <ul>
   <li>
     <span class="pub-title">Chromatin mapping uncovers convergent epigenetic dysregulation underlying diverse monogenic inborn errors of immunity</span><br>
-    <span class="pub-venue"><strong>Fangwen Zhao</strong>, Hana Imrichova*, Safa Baris Bal*, Hassan Abolhassani, Anamika Awasthi, Rob ter Horst, Birgit Ransmayr, Christoph B. Geier, Lisa Schuster, Ingrid Pico-Knijnenburg, Raúl Jiménez-Heredia, Patricia Stepper, Stefan Ladstätter, Albert Segarra-Roca, Ana V. Zornoza, Dalal Omar Alginani, André F. Rendeiro, Qiang Pan-Hammarström, Hermann M. Wolf, David Lara-Astiaso, Felipe Prosper, Lennart Hammarström, Mirjam van der Burg, Kaan Boztug, Thomas Krausgruber, Christoph Bock — *Equal contribution</span><br>
+    <span class="pub-venue"><strong>Zhao F</strong>, Imrichova H*, Bal SK*, Abolhassani H, Awasthi A, ter Horst R, Ransmayr B,  Geier CB, Schuster L , Pico-Knijnenburg I, Jiménez-Heredia R, Stepper P, Ladstätter S, Segarra-Roca A,  Zornoza AV, Alginani DO, Rendeiro A, Pan-Hammarström Q, Wolf HM, Lara-Astiaso D, Prosper  F, Hammarström H, van der Burg M, Boztug K, Krausgruber T, Bock C — *Equal contribution</span><br>
     <span class="pub-status">In preparation</span>
   </li>
   <li>
     <span class="pub-title">MrBiomics: Modules & Recipes Augment Bioinformatics for Multi-Omic Analyses</span><br>
-    <span class="pub-venue">Stefan Reichl*, Robert Bednarsky*, Lukas Folkman, Bekir Ergüner, Daniele Barreca, <strong>Fangwen Zhao</strong>, Daria Romanovskaia, Rob ter Horst, Luka Dobnikar, Christoph Bock — *Equal contribution</span><br>
+    <span class="pub-venue">Reichl S*, Bednarsky R*, Folkman L, Ergüner B, Barreca D, <strong>Zhao F</strong>, Romanovskaia D, ter Horst R, Dobnikar L, Bock C — *Equal contribution</span><br>
     <span class="pub-status">In preparation</span>
   </li>
   <li>
     <span class="pub-title"><a href="https://doi.org/10.3389/fimmu.2022.819470">Multi-omics analysis of naïve B cells of patients harboring the C104R mutation in TACI</a></span><br>
-    <span class="pub-venue">Frontiers in Immunology, 2022 — Neftali Ramirez, Sara Posadas-Cantera, Nils Langer, Andrés Caballero G. de Oteyza, Michele Proietti, Bärbel Keller, <strong>Fangwen Zhao</strong>, Valentina Gernedl, Matteo Pecoraro, Hermann Eibel, Klaus Warnatz, Esteban Ballestar, Rolf Geiger, Cornelis Bossen, Bodo Grimbacher</span>
+    <span class="pub-venue">Frontiers in Immunology, 2022 — Ramirez N, Posadas-Cantera S, Langer N, de Oteyza ACG, Proietti M, Keller B, <strong>Zhao F</strong>, Gernedl V, Pecoraro M, Eibel H, Warnatz K, Ballestar E, Geiger R, Bossen C, Grimbacher B</span>
   </li>
   <li>
     <span class="pub-title"><a href="https://doi.org/10.1038/s41467-019-14081-6">Chromatin mapping and single-cell immune profiling define the temporal dynamics of ibrutinib response in CLL</a></span><br>
-    <span class="pub-venue">Nature Communications, 2020 — André F. Rendeiro, Thomas Krausgruber, Nikolaus Fortelny, <strong>Fangwen Zhao</strong>, Thomas Penz, Matthias Farlik, Linda C. Schuster, Amelie Nemc, Szabolcs Tasnády, Marienn Réti, Zoltán Mátrai, Donát Alpár, Csaba Bödör, Christian Schmidl, Christoph Bock</span>
+    <span class="pub-venue">Nature Communications, 2020 — Rendeiro AF, Krausgruber T, Fortelny N, ,<strong>Zhao F</strong>, Penz T, Farlik M, Schuster LC, Nemc A, Tasnády S, Réti M, Mátrai Z, Alpár D, Bödör C, Schmidl C, Bock C</span>
   </li>
 </ul>
 
