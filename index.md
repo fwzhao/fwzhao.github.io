@@ -40,7 +40,7 @@ title: Fangwen Zhao
   </li>
   <li>
     <span class="pub-title"><a href="https://doi.org/10.1038/s41467-019-14081-6">Chromatin mapping and single-cell immune profiling define the temporal dynamics of ibrutinib response in CLL</a></span><br>
-    <span class="pub-venue">Nature Communications, 2020 — Rendeiro AF, Krausgruber T, Fortelny N, ,<strong>Zhao F</strong>, Penz T, Farlik M, Schuster LC, Nemc A, Tasnády S, Réti M, Mátrai Z, Alpár D, Bödör C, Schmidl C, Bock C</span>
+    <span class="pub-venue">Nature Communications, 2020 — Rendeiro AF, Krausgruber T, Fortelny N, <strong>Zhao F</strong>, Penz T, Farlik M, Schuster LC, Nemc A, Tasnády S, Réti M, Mátrai Z, Alpár D, Bödör C, Schmidl C, Bock C</span>
   </li>
 </ul>
 
