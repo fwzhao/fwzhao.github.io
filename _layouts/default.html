@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      line-height: 1.65;
+      color: #374151;
+      background: #f8f9fa;
+      padding: 2.5rem 1.5rem;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    
+    .profile {
+      display: flex;
+      gap: 1.75rem;
+      align-items: flex-start;
+      margin-bottom: 1.75rem;
+    }
+    
+    .profile img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      order: 2;
+    }
+    
+    .profile-info {
+      order: 1;
+      flex: 1;
+    }
+    
+    .profile-info h1 {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: #111827;
+      margin-bottom: 0.3rem;
+    }
+    
+    .profile-info .role {
+      color: #4b5563;
+      margin-bottom: 0.6rem;
+      font-size: 0.95rem;
+    }
+    
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+      margin-top: 0.6rem;
+    }
+    
+    .links a {
+      color: #4b5563;
+      text-decoration: none;
+      font-size: 0.875rem;
+    }
+    
+    .links a:hover { color: #111827; }
+    
+    h2 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #4b5563;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+    }
+    
+    p { margin-bottom: 1rem; }
+    
+    ul { 
+      list-style: none;
+      padding: 0;
+    }
+    
+    li {
+      margin-bottom: 0.85rem;
+      padding-left: 0;
+    }
+    
+    a { color: #0d9488; text-decoration: none; }
+    a:hover { color: #0f766e; }
+    
+    .pub-title { font-weight: 500; color: #111827; }
+    .pub-title a { color: #111827; }
+    .pub-title a:hover { color: #0d9488; }
+    .pub-venue { color: #4b5563; font-size: 0.9rem; }
+    .pub-status { 
+      font-size: 0.8rem; 
+      color: #9ca3af;
+      font-style: italic;
+    }
+    
+    @media (max-width: 500px) {
+      .profile { flex-direction: column; align-items: center; text-align: center; }
+      .profile img { order: 0; }
+      .profile-info { order: 1; }
+      .links { justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+  {{ content }}
+</body>
+</html>

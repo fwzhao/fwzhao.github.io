@@ -1,5 +1,10 @@
 title: Fangwen Zhao
-theme: minima
-markdown: kramdown
-plugins:
-  - jekyll-seo-tag
+description: Systems immunologist and computational biologist
+url: "https://fwzhao.github.io"
+
+plugins: []
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
